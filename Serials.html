@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style type="text/css">
+        .Body{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .NavBar{
+            position: fixed;
+            z-index: 1;
+            background-color: #343154;
+        }
+        #MenuItemMain{
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #6FBAFF; 
+            text-shadow: 0 0 10px #eef;
+        }
+        #MenuItemMain:Hover{
+            text-shadow: 0 0 20px #eef;
+        }
+        .Box{
+            position: absolute;
+            background-color: #6194C4;
+            width: 90%;
+            padding: 20px;
+            padding: 20x;
+            padding-bottom: 20px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-radius: 20px/ 20px;
+            box-shadow: 15px 10px 3px #445;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            height: 400px;
+            margin: 50px;
+            border-radius: 5%;
+        }
+        a{
+            color: white;
+        }
+        .bn_slider{
+            position: absolute;
+            top: 350%;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .bn{
+            color:  gray;
+            opacity: 0.2;
+            height: 100px;
+        }
+        .bn:hover{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="NavBar">
+        <h1 class="Title">Kassiyet Bolat</h1>
+        <ul class="Menu">
+            <li><a href="./index.html" id="MenuItem" style="">Main Page</a></li>
+            <li><a href="./Serials.html" id="MenuItemMain">Favorite Serials</a></li>
+            <li><a href="./Games.html" id="MenuItem">Favorite Games</a></li>
+        </ul>
+    </div>
+    <div class="Body">
+        <div class="bn_slider">
+            <button class="bn" id="Left">❮</button>
+            <button class="bn" id="Right">❯</button>
+        </div>
+        
+        <div class="Box" id="Box1">
+            <img src="https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_.jpg">
+            <div class="description">
+                <h2>Breaking Bad</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Breaking_Bad">Breaking Bad</a></b> is an American neo-Western crime drama television series created and produced by Vince Gilligan 
+                    for AMC. Set and filmed in Albuquerque, New Mexico, the series follows Walter White (Bryan Cranston), an 
+                    underpaid, overqualified, and dispirited high-school chemistry teacher who is struggling with a recent 
+                    diagnosis of stage-three lung cancer. White turns to a life of crime and partners with a former student, 
+                    Jesse Pinkman (Aaron Paul), to produce and distribute methamphetamine to secure his family's financial 
+                    future before he dies, while navigating the dangers of the criminal underworld. Breaking Bad premiered on 
+                    AMC on January 20, 2008, and concluded on September 29, 2013, after five seasons consisting of 62 episodes.</p>
+            </div>
+        </div>
+        <div class="Box" id="Box2" style="display: none;">
+            <img src="https://flxt.tmsimg.com/assets/p13837077_b_v9_aa.jpg">
+            <div class="description">
+                <h2>Better Call Saul</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Better_Call_Saul">Better Call Saul</a></b> is an American legal 
+                    crime drama television series created by Vince Gilligan and Peter Gould for AMC. Part of the Breaking Bad franchise, it is a spin-off from Gilligan's previous series, Breaking Bad (2008–2013),
+                     to which it serves as both a prequel and sequel. Better Call Saul premiered on AMC on February 8, 2015, and 
+                     concluded on August 15, 2022, after six seasons consisting of 63 episodes.</p>
+            </div>
+        </div>
+        <div class="Box" id="Box3" style="display: none;">
+            <img src="https://m.media-amazon.com/images/I/51iMf-IoBeL._AC_UF1000,1000_QL80_.jpg">
+            <div class="description">
+                <h2>The Office</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/The_Office_(American_TV_series)">The Office</a></b> is an American mockumentary sitcom television series that 
+                    depicts the everyday work lives of office employees at the Scranton, 
+                    Pennsylvania, branch of the fictional Dunder Mifflin Paper Company. It aired on NBC from March 24, 2005, 
+                    to May 16, 2013, spanning a total of nine seasons.[1] Based on the 2001–2003 BBC series of the same name 
+                    created by Ricky Gervais and Stephen Merchant, it was adapted for American television by Greg Daniels, a 
+                    veteran writer for Saturday Night Live, King of the Hill, and The Simpsons. It was co-produced by Daniels'
+                     Deedle-Dee Productions and Reveille Productions (later Shine America), in association with Universal Television. 
+                     The original executive producers were Daniels, Gervais, Merchant, Howard Klein, and Ben Silverman, with numerous 
+                     others being promoted in later seasons.</p>
+            </div>
+
+        </div>
+        <div class="Box" id="Box4" style="display: none;">
+            <img src="https://resizing.flixster.com/0xxuABVVuzJrUT130WFHKE-irEg=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vNzUyMTFhOTktZTU4Ni00ODkyLWJlYjQtZTgxYTllZmU2OGM0LmpwZw==">
+            <div class="description">
+                <h2>Stranger Things</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Stranger_Things">Stranger Things</a></b> is an American science fiction horror 
+                    drama television series created by the Duffer Brothers, who also serve as showrunners and are executive producers along with 
+                    Shawn Levy and Dan Cohen. Produced by Monkey Massacre Productions and Levy's 21 Laps Entertainment, the first season was released 
+                    on Netflix on July 15, 2016. Its second, third, and fourth seasons followed in October 2017, July 2019, and May and July 2022, 
+                    respectively. In February 2022, it was renewed for a fifth and final season.</p>
+            </div>
+
+        </div>     
+    </div>
+
+</body>
+<script src="Scrpit.js"></script>
+</html>

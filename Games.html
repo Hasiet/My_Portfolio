@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style type="text/css">
+        .Body{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            
+        }
+        .NavBar{
+            position: fixed;
+            z-index: 1;
+            background-color: #343154;
+        }
+        #MenuItemMain{
+            text-decoration: none;
+            padding-right: 40px;
+            font-size: 20px;
+            font-weight: 900;
+            color: #6FBAFF; 
+            text-shadow: 0 0 10px #eef;
+        }
+        #MenuItemMain:Hover{
+            text-shadow: 0 0 20px #eef;
+        }
+        .Box{
+            background-color: #6194C4;
+            width: auto;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 20px/ 20px;
+            box-shadow: 15px 10px 3px #445;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            height: 400px;
+            margin: 50px;
+            border-radius: 5%;
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="NavBar">
+        <h1 class="Title">Kassiyet Bolat</h1>
+        <ul class="Menu">
+            <li><a href="./index.html" id="MenuItem" style="">Main Page</a></li>
+            <li><a href="./Serials.html" id="MenuItem">Favorite Serials</a></li>
+            <li><a href="./Games.html" id="MenuItemMain">Favorite Games</a></li>
+        </ul>
+    </div>
+    <div class="Body">
+        <div class="Box">
+            <img src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic%20Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg">
+            <div class="description">
+                <h2>Red Dead Redemption 2</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Red_Dead_Redemption_2">Red Dead Redemption 2</a></b> is a 2018 action-adventure game developed and published by Rockstar Games. 
+                    The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. 
+                    The story is set in a fictionalized representation of the United States in 1899 and follows the exploits 
+                    of outlaw Arthur Morgan, a member of the Van der Linde gang, who must deal with the decline of the Wild 
+                    West whilst attempting to survive against government forces, rival gangs, and other adversaries. 
+                    The game is presented through first- and third-person perspectives, 
+                    and the player may freely roam in its interactive open world.</p>
+            </div>
+        </div>
+        <div class="Box">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/CSGOcoverMarch2020.jpg">
+            <div class="description">
+                <h2>Counter-Strike: Global Offensive</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive">Counter-Strike: Global Offensive (CS:GO)</a></b> is a 2012 multiplayer tactical first-person shooter developed by 
+                    Valve and Hidden Path Entertainment. It is the fourth game in the Counter-Strike series. Developed for over
+                     two years, Global Offensive was released for OS X, PlayStation 3, Windows, and Xbox 360 in August 2012, and 
+                     for Linux in 2014. Valve still regularly updates the game, both with smaller balancing patches and larger 
+                     content additions.</p>
+            </div>
+        </div>
+        <div class="Box">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/de/Squad_%28videogame%29_2016_frontcover.png">
+            <div class="description">
+                <h2>Squad</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Squad_(video_game)">Squad</a></b> is a realism-based military tactical first-person shooter video game developed and published 
+                    by Canadian indie developer Offworld Industries exclusively through the Steam distribution platform. 
+                    It is a spiritual successor to the Project Reality modification for Battlefield 2. The game depicts 
+                    realistic modern warfare between military and paramilitary factions in large and expansive battlefields. 
+                    Squad became available on Steam Early Access in December 2015, and was officially released on Steam 
+                    in September 2020.</p>
+            </div>
+
+        </div>
+        <div class="Box">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Terraria_Steam_artwork.jpg">
+            <div class="description">
+                <h2>Terraria</h2>
+                <p><b><a href="https://en.wikipedia.org/wiki/Terraria">Terraria</a></b> is an action-adventure sandbox game developed by Re-Logic. 
+                    The game was first released for Windows on May 16, 2011, and has since been ported to several 
+                    other platforms. The game features exploration, crafting, building, painting, and combat with 
+                    a variety of creatures in a procedurally generated 2D world. Terraria received generally positive 
+                    reviews and sold over 44 million copies by 2022, making it one of the top ten best-selling video games.</p>
+            </div>
+
+        </div>         
+    </div>
+
+</body>
+</html>
